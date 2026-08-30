@@ -114,3 +114,45 @@ footer {
     }
 
 }
+
+.about {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.profile-photo {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    margin-top: 0;
+}
+
+
+/* Mobile layout */
+
+@media (max-width: 700px) {
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .profile-photo {
+        width: 180px;
+        height: 180px;
+    }
+
+}
