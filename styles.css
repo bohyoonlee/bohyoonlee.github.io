@@ -1,0 +1,116 @@
+/* ---------- Basic page settings ---------- */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    color: #333;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 25px;
+}
+
+
+/* ---------- Header ---------- */
+
+header {
+    background-color: #f5f7fa;
+    padding: 60px 0 35px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #666;
+}
+
+
+/* ---------- Navigation ---------- */
+
+nav {
+    margin-top: 25px;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #1f5aa6;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* ---------- Main sections ---------- */
+
+section {
+    padding: 45px 0;
+    border-bottom: 1px solid #eee;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+.entry {
+    margin-bottom: 35px;
+}
+
+.institution {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.date {
+    color: #777;
+    margin: 5px 0 15px 0;
+}
+
+
+/* ---------- Links ---------- */
+
+a {
+    color: #1f5aa6;
+}
+
+
+/* ---------- Footer ---------- */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #777;
+    font-size: 14px;
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 34px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+}
