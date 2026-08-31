@@ -159,26 +159,23 @@ footer {
 
 /* education */
 
-.education-header {
+/* .education-header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
-}
+} */
 
-.education-date {
-    white-space: nowrap;
-    text-align: right;
-}
 
-.education-header h3 {
+
+/* .education-header h3 {
     margin-top: 0;
     margin-bottom: 4px;
 }
 
 .education-header p {
     margin-top: 0;
-}
+} */
 
 .degree-row {
     display: flex;
@@ -189,4 +186,9 @@ footer {
 
 .degree-row p {
     margin: 0;
+}
+
+.education-date {
+    white-space: nowrap;
+    text-align: right;
 }
