@@ -156,3 +156,26 @@ footer {
     }
 
 }
+
+/* education */
+
+.education-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.education-date {
+    white-space: nowrap;
+    text-align: right;
+}
+
+.education-header h3 {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.education-header p {
+    margin-top: 0;
+}
