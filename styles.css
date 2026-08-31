@@ -185,9 +185,28 @@ footer {
 
 }
 
+/* ========================================
+   About
+======================================== */
+
+.about {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
 .profile-photo {
-    width: 220px;
-    height: 220px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    margin-top: 0;
 }
