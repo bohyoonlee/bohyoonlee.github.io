@@ -86,7 +86,7 @@ h2 {
 /* School name */
 
 .education-entry h3 {
-    margin: 0 0 4px 0;
+    margin: 0 0 3px 0;
     font-size: 20px;
 }
 
@@ -118,12 +118,29 @@ h2 {
 }
 
 
-/* GPA */
+/* Location */
 
-.gpa {
-    margin-top: 2px;
+.location {
+    margin-top: 1px;
     margin-bottom: 0;
     color: #555;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .degree-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .education-date {
+        text-align: left;
+        margin-top: 2px;
+    }
+
 }
 
 
