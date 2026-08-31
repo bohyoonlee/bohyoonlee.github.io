@@ -157,38 +157,45 @@ footer {
 
 }
 
-/* education */
+/* ========================================
+   Education
+======================================== */
 
-/* .education-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
-} */
-
-
-
-/* .education-header h3 {
-    margin-top: 0;
-    margin-bottom: 4px;
+.education-entry {
+    margin-bottom: 30px;
 }
 
-.education-header p {
-    margin-top: 0;
-} */
+
+/* School name */
+
+.education-entry h3 {
+    margin: 0 0 4px 0;
+    font-size: 20px;
+}
+
+
+/* Degree + graduation date */
 
 .degree-row {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    gap: 20px;
+    gap: 30px;
 }
 
-.degree-row p {
+
+/* Degree */
+
+.degree {
     margin: 0;
+    font-weight: bold;
 }
+
+
+/* Graduation date */
 
 .education-date {
+    margin: 0;
     white-space: nowrap;
     text-align: right;
 }
