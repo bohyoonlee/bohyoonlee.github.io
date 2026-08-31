@@ -1,9 +1,11 @@
-/* ---------- Basic page settings ---------- */
+/* ========================================
+   General
+======================================== */
 
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.7;
+    line-height: 1.6;
     color: #333;
     background-color: #ffffff;
 }
@@ -15,33 +17,38 @@ body {
 }
 
 
-/* ---------- Header ---------- */
+/* ========================================
+   Header
+======================================== */
 
 header {
     background-color: #f5f7fa;
-    padding: 60px 0 35px 0;
-    border-bottom: 1px solid #ddd;
+    padding: 50px 0 30px 0;
+    border-bottom: 1px solid #dddddd;
 }
 
 header h1 {
     margin: 0;
-    font-size: 42px;
+    font-size: 40px;
 }
 
 .subtitle {
-    font-size: 20px;
+    margin-top: 5px;
+    font-size: 19px;
     color: #666;
 }
 
 
-/* ---------- Navigation ---------- */
+/* ========================================
+   Navigation
+======================================== */
 
 nav {
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 nav a {
-    margin-right: 20px;
+    margin-right: 22px;
     text-decoration: none;
     color: #1f5aa6;
     font-weight: bold;
@@ -52,110 +59,20 @@ nav a:hover {
 }
 
 
-/* ---------- Main sections ---------- */
+/* ========================================
+   Main section
+======================================== */
 
 section {
-    padding: 45px 0;
-    border-bottom: 1px solid #eee;
+    padding: 40px 0;
 }
 
 h2 {
     font-size: 28px;
-    margin-bottom: 25px;
-}
-
-h3 {
-    margin-bottom: 5px;
-}
-
-.entry {
-    margin-bottom: 35px;
-}
-
-.institution {
-    margin: 5px 0;
-    font-weight: bold;
-}
-
-.date {
-    color: #777;
-    margin: 5px 0 15px 0;
-}
-
-
-/* ---------- Links ---------- */
-
-a {
-    color: #1f5aa6;
-}
-
-
-/* ---------- Footer ---------- */
-
-footer {
-    text-align: center;
-    padding: 30px;
-    color: #777;
-    font-size: 14px;
-}
-
-
-/* ---------- Mobile ---------- */
-
-@media (max-width: 600px) {
-
-    header h1 {
-        font-size: 34px;
-    }
-
-    nav a {
-        display: inline-block;
-        margin-bottom: 10px;
-    }
-
-}
-
-.about {
-    display: flex;
-    align-items: flex-start;
-    gap: 50px;
-}
-
-.profile-photo {
-    width: 220px;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-.about-text {
-    flex: 1;
-}
-
-.about-text h2 {
     margin-top: 0;
+    margin-bottom: 30px;
 }
 
-
-/* Mobile layout */
-
-@media (max-width: 700px) {
-
-    .about {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .about-text {
-        width: 100%;
-    }
-
-    .profile-photo {
-        width: 180px;
-        height: 180px;
-    }
-
-}
 
 /* ========================================
    Education
@@ -198,4 +115,55 @@ footer {
     margin: 0;
     white-space: nowrap;
     text-align: right;
+}
+
+
+/* GPA */
+
+.gpa {
+    margin-top: 2px;
+    margin-bottom: 0;
+    color: #555;
+}
+
+
+/* ========================================
+   Footer
+======================================== */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    border-top: 1px solid #eeeeee;
+    color: #777;
+    font-size: 14px;
+}
+
+
+/* ========================================
+   Mobile
+======================================== */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin-right: 15px;
+        margin-bottom: 8px;
+    }
+
+    .degree-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .education-date {
+        text-align: left;
+        margin-top: 2px;
+    }
+
 }
