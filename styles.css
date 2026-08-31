@@ -179,3 +179,14 @@ footer {
 .education-header p {
     margin-top: 0;
 }
+
+.degree-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.degree-row p {
+    margin: 0;
+}
