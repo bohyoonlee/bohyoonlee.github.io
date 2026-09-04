@@ -215,10 +215,6 @@ footer {
    Awards
 ======================================== */
 
-/* ========================================
-   Awards
-======================================== */
-
 .award-row {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -235,4 +231,5 @@ footer {
 .award-period {
     text-align: right;
     white-space: nowrap;
+    justify-self: end;
 }
