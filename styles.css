@@ -80,12 +80,13 @@ nav {
 nav a {
     margin-right: 22px;
     text-decoration: none;
-    color: #1f5aa6;
+    color: white;
     font-weight: bold;
 }
 
 nav a:hover {
     text-decoration: underline;
+    color: white;
 }
 
 
