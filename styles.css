@@ -233,3 +233,29 @@ footer {
     white-space: nowrap;
     justify-self: end;
 }
+
+/* ========================================
+   Service
+======================================== */
+
+.service-entry {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 40px;
+    align-items: start;
+    margin-bottom: 12px;
+}
+
+.service-title {
+    font-weight: bold;
+}
+
+.service-institution {
+    font-style: italic;
+}
+
+.service-date {
+    white-space: nowrap;
+    text-align: right;
+    align-self: end;
+}
