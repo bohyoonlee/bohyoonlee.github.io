@@ -259,3 +259,117 @@ footer {
     text-align: right;
     align-self: end;
 }
+
+/* ========================================
+   Experience
+======================================== */
+
+.experience-section {
+    padding: 35px 0;
+}
+
+
+/* Individual position/project */
+
+.experience-entry {
+    margin-bottom: 28px;
+}
+
+
+/* Position or project title */
+
+.experience-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+
+/* Institution + date */
+
+.experience-meta {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 30px;
+    align-items: baseline;
+    width: 100%;
+    margin-top: 0;
+}
+
+
+/* Institution */
+
+.experience-institution {
+    font-style: italic;
+}
+
+
+/* Date */
+
+.experience-date {
+    text-align: right;
+    white-space: nowrap;
+}
+
+
+/* Bullet list */
+
+.experience-bullets {
+    margin-top: 3px;
+    margin-bottom: 0;
+    padding-left: 25px;
+}
+
+.experience-bullets li {
+    margin-bottom: 2px;
+}
+
+
+/* ========================================
+   TA Course List
+======================================== */
+
+.course-list {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 25px;
+}
+
+.course-list li {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 30px;
+    margin-bottom: 2px;
+}
+
+.course-date {
+    text-align: right;
+    white-space: nowrap;
+}
+
+
+/* ========================================
+   Mobile Experience
+======================================== */
+
+@media (max-width: 600px) {
+
+    .experience-meta {
+        grid-template-columns: 1fr;
+        row-gap: 0;
+    }
+
+    .experience-date {
+        text-align: left;
+        margin-top: 2px;
+    }
+
+    .course-list li {
+        grid-template-columns: 1fr;
+    }
+
+    .course-date {
+        text-align: left;
+    }
+
+}
