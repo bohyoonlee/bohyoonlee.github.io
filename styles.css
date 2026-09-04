@@ -210,3 +210,24 @@ footer {
 .about-text h2 {
     margin-top: 0;
 }
+
+/* ========================================
+   Awards
+======================================== */
+
+.award-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 30px;
+    margin-bottom: 6px;
+}
+
+.award-name {
+    flex: 1;
+}
+
+.award-date {
+    white-space: nowrap;
+    text-align: right;
+}
