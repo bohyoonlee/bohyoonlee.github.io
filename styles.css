@@ -23,8 +23,39 @@ body {
 
 header {
     background-color: #C5050C;
-    padding: 40px 0 25px 0;
+    padding: 35px 0 25px 0;
     color: white;
+    border-bottom: none;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 40px;
+    color: white;
+}
+
+.subtitle {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 19px;
+    color: white;
+}
+
+.header-logo {
+    margin-left: auto;
+}
+
+.uw-logo {
+    width: 220px;
+    height: auto;
+    display: block;
 }
 
 
