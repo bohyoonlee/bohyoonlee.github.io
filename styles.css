@@ -22,22 +22,52 @@ body {
 ======================================== */
 
 header {
-    background-color: #f5f7fa;
-    padding: 50px 0 30px 0;
-    border-bottom: 1px solid #dddddd;
+    background-color: #C5050C;
+    padding: 40px 0 25px 0;
+    color: white;
 }
 
-header h1 {
+
+/* Name + logo */
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+
+/* Name */
+
+.header-text h1 {
     margin: 0;
     font-size: 40px;
+    color: white;
 }
+
+
+/* Subtitle */
 
 .subtitle {
     margin-top: 5px;
+    margin-bottom: 0;
     font-size: 19px;
-    color: #666;
+    color: white;
 }
 
+
+/* UW-Madison logo */
+
+.header-logo {
+    margin-left: auto;
+}
+
+.uw-logo {
+    width: 180px;
+    height: auto;
+    display: block;
+}
 
 /* ========================================
    Navigation
