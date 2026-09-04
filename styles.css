@@ -215,21 +215,24 @@ footer {
    Awards
 ======================================== */
 
-.award-entry {
+/* ========================================
+   Awards
+======================================== */
+
+.award-row {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) max-content;
-    column-gap: 30px;
+    grid-template-columns: 1fr auto;
     align-items: baseline;
+    column-gap: 40px;
     width: 100%;
-    margin-bottom: 4px;
+    margin-bottom: 6px;
 }
 
-.award-name {
+.award-title {
     text-align: left;
 }
 
-.award-date {
+.award-period {
     text-align: right;
     white-space: nowrap;
-    justify-self: end;
 }
